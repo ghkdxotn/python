@@ -88,3 +88,10 @@ print( int(a)*int(b))
 print( int(a)-int(b))
 
 
+a = int(input ("첫번째 숫자 입력 "));
+b = int(input ("두번째 숫자 입력 "));
+
+print( a+b);
+print( a*b);
+print( a-b);
+print( b-a);
