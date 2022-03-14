@@ -5,14 +5,18 @@
 '''
 print('hollo');
 print("hollo");
-print ( "He's name is 철수 "  )
+print ( "He's name is 철수 "  );
 
-print ('He said "I am OK!')
-print ('He said "I am OK!')
-print ("He said \"I am OK!\" ")
+print ('He said "I am OK!');
+print ('He said "I am OK!');
+print ("He said \"I am OK!\" ");
 '''
 '''
-print( "a"* 10 )
+print( "a"* 10 );
 '''
 
-print(" He said \"Python is Easy\" ")
+print(" He said \"Python is Easy\" ");
+
+print("34256 곱하기 2365는" ,(34256*2365)," 입니다 ");
+
+     
