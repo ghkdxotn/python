@@ -3,20 +3,31 @@
 2주차 수업
 '''
 '''
-print('hollo');
-print("hollo");
-print ( "He's name is 철수 "  );
+print('hollo'); #hollo
+print("hollo"); #hollo
+print ( "He's name is 철수 "  ); #He's name is 철수 
 
-print ('He said "I am OK!');
-print ('He said "I am OK!');
-print ("He said \"I am OK!\" ");
+print ('He said "I am OK!'); #He said "I am OK!
+print ('He said "I am OK!'); #He said "I am OK!
+print ("He said \"I am OK!\" "); #He said "I am OK!" 
+
+
+print( "a"* 10 ); # aaaaaaaaaa
+
+
+print(" He said \"Python is Easy\" "); # He said "Python is Easy" 
+print("34256 곱하기 2365는" ,(34256*2365)," 입니다 "); #34256 곱하기 2365는 81015440  입니다 
+      
+
+print("A"); # A만 문자로 출력 
+print("B"); # B만 문자로 출력 
 '''
 '''
-print( "a"* 10 );
+print("A\nBC\nDEF"); #/n =새로운줄 or다음줄
+
 '''
-
-print(" He said \"Python is Easy\" ");
-
-print("34256 곱하기 2365는" ,(34256*2365)," 입니다 ");
-
-     
+#===============문자열 슬라이싱 (slice)==================
+print ("Hello"[0]) #0번째 문자열이 없어서 출력 안됨 
+print ("Hello"[1])#문자열첫번째 글자 출력 
+print ("Hello"[-1])#뒤에서 첫글자
+print ("Hello"[0:3])#0<= 범위 <3 까지 출력 
