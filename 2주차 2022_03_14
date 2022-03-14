@@ -1,0 +1,18 @@
+'''
+2022_03_14
+2주차 수업
+'''
+'''
+print('hollo');
+print("hollo");
+print ( "He's name is 철수 "  )
+
+print ('He said "I am OK!')
+print ('He said "I am OK!')
+print ("He said \"I am OK!\" ")
+'''
+'''
+print( "a"* 10 )
+'''
+
+print(" He said \"Python is Easy\" ")
