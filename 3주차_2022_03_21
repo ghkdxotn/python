@@ -34,8 +34,9 @@ BMI는 몸무게를(kg)  키(미터)의 제곱값으로 나눈 숫자
 bmi 값을 출력 해주는 프로그램을 작성 해 봅시다 .
 
 '''
-a = float(input ("몸무게 를 입력 해주세요: "))
-b = float(input ("키를  입력 해주세요 :   "))
+a = float(input ("몸무게 를 입력 해주세요[kg]단위 입니다: "))
+b = float(input ("키를  입력 해주세요[cm] 입니다  :   "))
+
 
 b = float(b/100)
 print (a /(b*b))
