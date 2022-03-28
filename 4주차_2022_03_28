@@ -146,3 +146,13 @@ a=[[1,2,3],['a','b','c'],'pyhton',38.5]
 
 print(a[2][0:2])
 
+n= int(input('숫자 입력:'))
+
+if n%2==0:
+    print('짝수 (enve)')
+else:
+    print('홀수(odd)')
+    
+    
+    
+    
