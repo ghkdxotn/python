@@ -1,0 +1,6 @@
+c=input('영문으로 이름을  입역 하시오 : ')
+b=0;
+
+for X in c [0:-1]:
+    print(X+'-',end='');
+print(c[-1],end='');    
