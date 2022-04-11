@@ -1,6 +1,104 @@
+'''c=int(input('정수를 입력 하시오 : ')) #입력받은 데이터가 문자이끼 때문에 정수로 밖굼
+a=1;
+b=0;
+d=1;
+#n 이  a의 제곡보다 작은 동안 반복 
+while d<=c:
+    a=1;
+    b=d;
+    d+=1;
+    while a<=c:
+        print(f'{b:2}',end='');
+        b+=c
+        a+=1
+    print();
+'''
+'''
+전체 : hello
+일부 : X가 가리키는 정보
+'''
+'''
+import time;
+
+for X in "hello":
+
+    #print(X)
+    # 타임모듈의 sleep()기능 실행 
+    time.sleep(1);
+    print ('단지 반복복에 사용 ');
+ '''   
+#문제
+'''
+자신의 영문 이름을 입역 받아
+아래와 같이 출력되도록    프로그램
+입력 : hongGilDong
+출력 : h-o-n-g-G-i-l-D-o-n-g
+''''''
+import time;
 c=input('영문으로 이름을  입역 하시오 : ')
 b=0;
 
 for X in c [0:-1]:
     print(X+'-',end='');
 print(c[-1],end='');    
+'''
+
+#전체 : 리스트
+
+'''
+for a in [1,2,3,4,5]:
+    print(a)
+    time.sleep(1);
+'''
+#문제
+'''
+리스트안에  들어가있는 자연수 중에
+홀수의 갯수와  짝수의 갯수를 출력하는
+프로그램의 완성해 봅시다.
+(짝수란 2로 나누었을때  나머지가 0 이되는 수를 말 합니다 .)
+''''''
+b=0;
+c=0;
+
+
+for a in [21,22,13,34,15]:
+    if a%2==0:
+       c+=1
+    else :
+        b+=1
+print(c);
+print(b);
+        
+'''
+
+import time
+a=1
+b=1
+c=0
+
+for outN in range(4):
+    c+=1
+    for inN in range(5):
+        c=outN*inN
+        print(f'{outN}X{inN}={c}|',end='')
+        b+=1
+    a+=1
+    print();
+     
+     
+
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
