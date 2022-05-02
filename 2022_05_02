@@ -1,0 +1,64 @@
+'''
+사과갯수 = 49;
+사람수 = 9;
+fin= 0;
+print ( 사과갯수 - 사람수 )
+
+while 사람수>=사과갯수:
+
+    
+    사과갯수 -= 사람수 
+        
+    print ( 사과갯수)
+    
+    
+print (사과갯수)
+print (사람수)
+    
+print ( 사과갯수 - 사람수 )
+    
+
+'''
+#보드 모델링 하기  
+BOARD=[ [1,2,5],
+      [3,0,6 ],
+      [8,7,4 ]]
+
+# 화면에 보드 상태 출력 하기
+print (BOARD[0])
+print (BOARD[1])
+print (BOARD[2])
+
+key = input('wasd 중 에 하나 입력 ')
+#만약 key 입력값이 d와 같다면
+    #BOARD[2][2]와 BOARD[2][1]를 서로 바꾸기
+r=1
+c=1
+
+
+if  key ==  'd':
+    BOARD[r][c],BOARD[r][c+1] = BOARD[r][c+1] , BOARD[r][c]
+       
+    print (BOARD[0])
+    print (BOARD[1])
+    print (BOARD[2])
+   
+
+elif key ==  'w':
+    BOARD[r][c],BOARD[r-1][c] = BOARD[r-1][c] , BOARD[r][c]
+    print (BOARD[0])
+    print (BOARD[1])
+    print (BOARD[2])
+   
+elif key ==  's':
+    BOARD[r+1][c],BOARD[r][c] = BOARD[r][c] , BOARD[r+1][c]
+    print (BOARD[0])
+    print (BOARD[1])
+    print (BOARD[2])
+   
+elif key ==  'a':
+    BOARD[r][c-1],BOARD[r][c] = BOARD[r][c] , BOARD[r][c-1]
+    print (BOARD[0])
+    print (BOARD[1])
+    print (BOARD[2])
+       
